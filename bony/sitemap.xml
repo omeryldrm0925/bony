@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/index.html</loc></url>
+  <url><loc>https://example.com/collection.html?handle=all</loc></url>
+  <url><loc>https://example.com/collection.html?handle=curated-selections</loc></url>
+  <url><loc>https://example.com/collection.html?handle=studio-highlights</loc></url>
+  <url><loc>https://example.com/collection.html?handle=limited-drops</loc></url>
+  <url><loc>https://example.com/collection.html?handle=abstract-expression</loc></url>
+  <url><loc>https://example.com/collection.html?handle=monochrome-series</loc></url>
+  <url><loc>https://example.com/collection.html?handle=color-burst-collection</loc></url>
+  <url><loc>https://example.com/collection.html?handle=minimal-line-art</loc></url>
+  <url><loc>https://example.com/product.html?id=art001</loc></url>
+  <url><loc>https://example.com/product.html?id=art002</loc></url>
+  <url><loc>https://example.com/product.html?id=art003</loc></url>
+  <url><loc>https://example.com/product.html?id=art004</loc></url>
+  <url><loc>https://example.com/product.html?id=art005</loc></url>
+  <url><loc>https://example.com/product.html?id=art006</loc></url>
+  <url><loc>https://example.com/product.html?id=art007</loc></url>
+  <url><loc>https://example.com/product.html?id=art008</loc></url>
+  <url><loc>https://example.com/product.html?id=art009</loc></url>
+  <url><loc>https://example.com/product.html?id=art010</loc></url>
+  <url><loc>https://example.com/product.html?id=art011</loc></url>
+  <url><loc>https://example.com/product.html?id=art012</loc></url>
+</urlset>

@@ -1,0 +1,58 @@
+[
+  {
+    "handle": "all",
+    "title": "All Works",
+    "description": "Entire BONY Atelier canvas archive.",
+    "rules": { "type": "all" },
+    "sortDefault": "newest"
+  },
+  {
+    "handle": "curated-selections",
+    "title": "Curated Selections",
+    "description": "Editor-selected Signature Pieces for premium interiors.",
+    "rules": { "type": "tags", "tags": ["Signature Pieces"] },
+    "sortDefault": "newest"
+  },
+  {
+    "handle": "studio-highlights",
+    "title": "Studio Highlights",
+    "description": "Fresh arrivals from the Studio Collection.",
+    "rules": { "type": "tags", "tags": ["Studio Collection"] },
+    "sortDefault": "newest"
+  },
+  {
+    "handle": "limited-drops",
+    "title": "Limited Drops",
+    "description": "Small-run limited edition canvas releases.",
+    "rules": { "type": "tags", "tags": ["Limited Edition"] },
+    "sortDefault": "newest"
+  },
+  {
+    "handle": "abstract-expression",
+    "title": "Abstract Expression",
+    "description": "Gestural works with layered movement and energy.",
+    "rules": { "type": "tags", "tags": ["Abstract Expression"] },
+    "sortDefault": "price-desc"
+  },
+  {
+    "handle": "monochrome-series",
+    "title": "Monochrome Series",
+    "description": "Black, white, and tonal balance studies.",
+    "rules": { "type": "tags", "tags": ["Monochrome Series"] },
+    "sortDefault": "title-asc"
+  },
+  {
+    "handle": "color-burst-collection",
+    "title": "Color Burst Collection",
+    "description": "Vivid spectrum-led expressive compositions.",
+    "rules": { "type": "tags", "tags": ["Color Burst Collection"] },
+    "sortDefault": "newest"
+  },
+  {
+    "handle": "minimal-line-art",
+    "title": "Minimal Line Art",
+    "description": "Precision linework with architectural calm.",
+    "rules": { "type": "tags", "tags": ["Minimal Line Art"] },
+    "sortDefault": "price-asc"
+  }
+]

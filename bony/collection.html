@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery | BONY Atelier</title>
+  <meta name="description" content="Explore curated canvas collections, monochrome studies, and vibrant abstract signature pieces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body data-page="collection">
+  <header class="site-header">
+    <div class="container container--full site-header__inner site-header__inner--store">
+      <nav class="site-nav site-nav--collections" data-role="collections-menu-row" aria-label="Collections">
+        <a class="site-nav__link" href="/collection.html?handle=all">All Works</a>
+      </nav>
+
+      <a class="brand brand--center" href="/index.html" aria-label="BONY Atelier home">
+        <span>bony atelier</span><span class="brand__dot">.</span>
+      </a>
+
+      <div class="site-header__actions">
+        <button class="site-pill site-pill--cart" type="button" data-role="cart-button" aria-label="Open cart">
+          <span>Cart</span>
+          <span class="site-pill__count" data-role="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container container--full">
+      <div class="results-toolbar results-toolbar--minimal">
+        <div class="results-toolbar__left">
+          <h1 id="collectionTitle">Gallery</h1>
+          <p id="collectionDesc">Curated premium canvas collection.</p>
+        </div>
+        <div class="results-toolbar__right">
+          <span class="site-pill" id="collectionCount">0 works</span>
+        </div>
+      </div>
+
+      <section class="collection-controls" aria-label="Filter and sort">
+        <div class="collection-controls__row">
+          <button class="control-btn control-btn--dark" id="toggleFiltersBtn" type="button" aria-controls="collectionFiltersPanel" aria-expanded="false">
+            FILTER
+          </button>
+          <select class="control-select" id="sortSelect" aria-label="Sort by">
+            <option value="newest">SORT BY - NEWEST</option>
+            <option value="price-asc">SORT BY - PRICE LOW TO HIGH</option>
+            <option value="price-desc">SORT BY - PRICE HIGH TO LOW</option>
+            <option value="title-asc">SORT BY - TITLE A-Z</option>
+          </select>
+          <button class="control-btn" id="collectionRetry" type="button">REFRESH</button>
+        </div>
+
+        <div class="collection-filters-drawer" id="collectionFiltersPanel" hidden>
+          <div class="collection-filters-drawer__grid">
+            <div class="filter-group">
+              <div class="filter-group__title">Collector Budget</div>
+              <div class="range-row">
+                <input class="input" id="priceMin" type="number" min="0" placeholder="Min" />
+                <input class="input" id="priceMax" type="number" min="0" placeholder="Max" />
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group__title">Series &amp; Category</div>
+              <div id="tagFilters"></div>
+            </div>
+          </div>
+
+          <div class="admin-toolbar" style="margin-top:10px;">
+            <button class="btn btn--ghost btn--small" id="clearFiltersBtn" type="button">Clear Filters</button>
+            <div class="admin-status" id="collectionError" hidden></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="site-section" aria-label="Artwork list">
+        <div class="product-grid product-grid--listing" id="collectionProductGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container container--full footer__inner">
+      <div>BONY Atelier curated gallery</div>
+      <div><a href="/index.html">Home</a></div>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/collection.js"></script>
+</body>
+</html>

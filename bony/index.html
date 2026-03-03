@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BONY Atelier | Premium Canvas Art</title>
+  <meta name="description" content="Premium canvas artworks, limited edition signature pieces, and curated studio collections." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container container--full site-header__inner site-header__inner--store">
+      <nav class="site-nav site-nav--collections" data-role="collections-menu-row" aria-label="Collections">
+        <a class="site-nav__link" href="/collection.html?handle=all">All Works</a>
+      </nav>
+
+      <a class="brand brand--center" href="/index.html" aria-label="BONY Atelier home">
+        <span>bony atelier</span><span class="brand__dot">.</span>
+      </a>
+
+      <div class="site-header__actions">
+        <button class="site-pill site-pill--cart" type="button" data-role="cart-button" aria-label="Open cart">
+          <span>Cart</span>
+          <span class="site-pill__count" data-role="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container container--full">
+      <section
+        class="hero-video hero-video--entry"
+        aria-label="Cinematic hero video"
+        data-video-prompt="Create a cinematic, high-fashion hero banner video for an art canvas e-commerce website. Scene starts in black and white. Frame shows a minimalist dark studio wall. Only the wall is visible. Several abstract canvas paintings are already hanging on the wall. Lighting is soft, studio-style, with dramatic shadows. After 3 seconds, a blonde woman wearing a red elegant dress and high heels enters the frame from the right side. She is holding a colorful abstract canvas painting. The aesthetic is minimal, modern, luxury art gallery vibe. She walks calmly toward the wall. She hangs the painting. The exact moment the painting touches the wall, the entire frame transitions from black and white to full vivid color. The color transition should feel like an explosion of life with a smooth cinematic bloom effect, rich contrast, vibrant tones, and slight slow motion at the transition moment. The abstract painting she hangs should have bold color splashes, energetic strokes, modern expressionist style. Mood: sophisticated, artistic, premium, gallery-level. Camera: static wide shot, no handheld. Aspect ratio: 16:9. Duration: 8-12 seconds. No text overlay. No logos. No background music. Emotional effect: from lifeless minimalism to bold artistic awakening."
+      >
+        <a class="hero-video__link" data-role="home-hero-link" href="/collection.html?handle=all" aria-label="Enter gallery"></a>
+        <video
+          class="hero-video__media"
+          id="homeHeroVideo"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=2200&q=80"
+        >
+          <source src="/assets/media/home-intro.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-video__veil" aria-hidden="true"></div>
+      </section>
+
+      <section class="site-section" aria-label="Curated collections">
+        <div class="section-head section-head--minimal">
+          <h2>Curated Selections</h2>
+          <p>Studio Highlights • Limited Drops</p>
+        </div>
+        <div class="collection-grid" id="homeCollectionGrid"></div>
+      </section>
+
+      <section class="site-section" aria-label="Signature Pieces">
+        <div class="section-head section-head--minimal">
+          <h2>Signature Pieces</h2>
+          <p>Premium canvas works</p>
+        </div>
+        <div class="product-grid product-grid--listing" id="homeProductGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer" aria-label="Footer">
+    <div class="container container--full footer__inner">
+      <div>&copy; <span id="year"></span> BONY Atelier</div>
+      <div><a href="/collection.html?handle=all">View Gallery</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script type="module" src="/assets/js/catalog.js"></script>
+</body>
+</html>

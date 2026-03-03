@@ -1,0 +1,218 @@
+[
+  {
+    "id": "art001",
+    "title": "Chromatic Silence",
+    "category": "Color Burst Collection",
+    "price": 12800,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/chromatic-silence/1400/1750",
+      "https://picsum.photos/seed/chromatic-silence-detail/1400/1750"
+    ],
+    "description": "A restrained surface that fractures into luminous pigment waves. Built for bold contemporary interiors.",
+    "tags": ["Color Burst Collection", "Limited Edition", "Signature Pieces", "Abstract Series"],
+    "stock": 8,
+    "isActive": true,
+    "createdAt": "2026-03-01T10:00:00.000Z"
+  },
+  {
+    "id": "art002",
+    "title": "Midnight Fracture",
+    "category": "Monochrome Series",
+    "price": 11600,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/midnight-fracture/1400/1750",
+      "https://picsum.photos/seed/midnight-fracture-detail/1400/1750"
+    ],
+    "description": "A dark tonal study with fine structural breaks. Quiet tension for gallery-like spaces.",
+    "tags": ["Monochrome Series", "Studio Collection", "Abstract Series"],
+    "stock": 11,
+    "isActive": true,
+    "createdAt": "2026-02-28T10:00:00.000Z"
+  },
+  {
+    "id": "art003",
+    "title": "Eclipse in Motion",
+    "category": "Abstract Expression",
+    "price": 13900,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/eclipse-motion/1400/1750",
+      "https://picsum.photos/seed/eclipse-motion-detail/1400/1750"
+    ],
+    "description": "Circular forms collide with directional strokes in controlled momentum. A centerpiece from the Abstract Series.",
+    "tags": ["Abstract Expression", "Limited Edition", "Abstract Series", "Signature Pieces"],
+    "stock": 6,
+    "isActive": true,
+    "createdAt": "2026-02-27T10:00:00.000Z"
+  },
+  {
+    "id": "art004",
+    "title": "Urban Pulse",
+    "category": "Minimal Line Art",
+    "price": 9800,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/urban-pulse/1400/1750",
+      "https://picsum.photos/seed/urban-pulse-detail/1400/1750"
+    ],
+    "description": "Linear cadence inspired by city rhythm and architectural flow. Refined composition with confident spacing.",
+    "tags": ["Minimal Line Art", "Studio Collection", "Canvas"],
+    "stock": 14,
+    "isActive": true,
+    "createdAt": "2026-02-26T10:00:00.000Z"
+  },
+  {
+    "id": "art005",
+    "title": "Controlled Chaos",
+    "category": "Abstract Expression",
+    "price": 15400,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/controlled-chaos/1400/1750",
+      "https://picsum.photos/seed/controlled-chaos-detail/1400/1750"
+    ],
+    "description": "Energetic brush velocity organized by geometric anchors. A high-impact signature composition.",
+    "tags": ["Abstract Expression", "Limited Edition", "Signature Pieces", "Color Burst Collection"],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-02-25T10:00:00.000Z"
+  },
+  {
+    "id": "art006",
+    "title": "Ivory Resonance",
+    "category": "Minimal Line Art",
+    "price": 9200,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/ivory-resonance/1400/1750",
+      "https://picsum.photos/seed/ivory-resonance-detail/1400/1750"
+    ],
+    "description": "A soft neutral field with balanced calligraphic marks. Crafted for serene curated walls.",
+    "tags": ["Minimal Line Art", "Studio Collection", "Canvas"],
+    "stock": 18,
+    "isActive": true,
+    "createdAt": "2026-02-24T10:00:00.000Z"
+  },
+  {
+    "id": "art007",
+    "title": "Velvet Geometry",
+    "category": "Monochrome Series",
+    "price": 12500,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/velvet-geometry/1400/1750",
+      "https://picsum.photos/seed/velvet-geometry-detail/1400/1750"
+    ],
+    "description": "Precision blocks emerge from velvety black depth. A collectible from the Monochrome Series.",
+    "tags": ["Monochrome Series", "Signature Pieces", "Abstract Series"],
+    "stock": 9,
+    "isActive": true,
+    "createdAt": "2026-02-23T10:00:00.000Z"
+  },
+  {
+    "id": "art008",
+    "title": "Solar Fragments",
+    "category": "Color Burst Collection",
+    "price": 13200,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/solar-fragments/1400/1750",
+      "https://picsum.photos/seed/solar-fragments-detail/1400/1750"
+    ],
+    "description": "Radiant warm pigments split into layered shards of light. A bold statement from the studio vault.",
+    "tags": ["Color Burst Collection", "Studio Collection", "Abstract Series"],
+    "stock": 10,
+    "isActive": true,
+    "createdAt": "2026-02-22T10:00:00.000Z"
+  },
+  {
+    "id": "art009",
+    "title": "Quiet Tension",
+    "category": "Monochrome Series",
+    "price": 11000,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/quiet-tension/1400/1750",
+      "https://picsum.photos/seed/quiet-tension-detail/1400/1750"
+    ],
+    "description": "Subtle gradients and restrained edges create suspended energy. Minimal yet assertive gallery character.",
+    "tags": ["Monochrome Series", "Canvas", "Studio Collection"],
+    "stock": 12,
+    "isActive": true,
+    "createdAt": "2026-02-21T10:00:00.000Z"
+  },
+  {
+    "id": "art010",
+    "title": "Noir Bloom",
+    "category": "Abstract Expression",
+    "price": 14700,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/noir-bloom/1400/1750",
+      "https://picsum.photos/seed/noir-bloom-detail/1400/1750"
+    ],
+    "description": "Organic bloom structures unfold over deep shadowed layers. Designed as a dramatic focal signature piece.",
+    "tags": ["Abstract Expression", "Signature Pieces", "Limited Edition", "Abstract Series"],
+    "stock": 7,
+    "isActive": true,
+    "createdAt": "2026-02-20T10:00:00.000Z"
+  },
+  {
+    "id": "art011",
+    "title": "Luminous Drift",
+    "category": "Color Burst Collection",
+    "price": 11900,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/luminous-drift/1400/1750",
+      "https://picsum.photos/seed/luminous-drift-detail/1400/1750"
+    ],
+    "description": "Airy chromatic transitions glide through open negative space. A modern collector favorite.",
+    "tags": ["Color Burst Collection", "Canvas", "Studio Collection"],
+    "stock": 13,
+    "isActive": true,
+    "createdAt": "2026-02-19T10:00:00.000Z"
+  },
+  {
+    "id": "art012",
+    "title": "Crimson Echo",
+    "category": "Minimal Line Art",
+    "price": 10500,
+    "currency": "TRY",
+    "compareAtPrice": null,
+    "discountPercent": null,
+    "images": [
+      "https://picsum.photos/seed/crimson-echo/1400/1750",
+      "https://picsum.photos/seed/crimson-echo-detail/1400/1750"
+    ],
+    "description": "A disciplined linear structure interrupted by crimson resonance. Elegant, graphic, and gallery-forward.",
+    "tags": ["Minimal Line Art", "Limited Edition", "Signature Pieces", "Abstract Series"],
+    "stock": 8,
+    "isActive": true,
+    "createdAt": "2026-02-18T10:00:00.000Z"
+  }
+]

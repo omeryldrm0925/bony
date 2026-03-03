@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Artwork | BONY Atelier</title>
+  <meta name="description" content="Artwork detail page for premium canvas pieces, limited editions, and signature studio works." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body data-page="product">
+  <header class="site-header">
+    <div class="container container--full site-header__inner site-header__inner--store">
+      <nav class="site-nav site-nav--collections" data-role="collections-menu-row" aria-label="Collections">
+        <a class="site-nav__link" href="/collection.html?handle=all">All Works</a>
+      </nav>
+
+      <a class="brand brand--center" href="/index.html" aria-label="BONY Atelier home">
+        <span>bony atelier</span><span class="brand__dot">.</span>
+      </a>
+
+      <div class="site-header__actions">
+        <button class="site-pill site-pill--cart" type="button" data-role="cart-button" aria-label="Open cart">
+          <span>Cart</span>
+          <span class="site-pill__count" data-role="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <a class="back-link" id="pBackLink" href="/collection.html?handle=all">&larr; Back to gallery</a>
+
+      <div class="product-page">
+        <section class="product-gallery-panel" aria-label="Artwork gallery">
+          <div class="product-gallery">
+            <div class="product-gallery__thumbs" id="pThumbs" aria-label="Thumbnail gallery"></div>
+            <div>
+              <div class="product-zoom__stage" id="pZoomStage">
+                <img id="pMainImg" alt="" loading="eager" decoding="async" />
+              </div>
+              <div class="product-zoom__note">Gallery zoom available on desktop.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="product-info-panel" aria-label="Artwork details">
+          <h1 id="pTitle"></h1>
+          <div class="product-price" id="pPrice"></div>
+          <p class="product-desc" id="pDesc"></p>
+
+          <div class="product-config">
+            <div class="product-config__field">
+              <label class="product-config__label" for="pEdition">Edition</label>
+              <select class="select" id="pEdition" aria-label="Edition selection"></select>
+            </div>
+            <div class="product-config__field">
+              <label class="product-config__label" for="pQty">Quantity</label>
+              <input class="input" id="pQty" type="number" min="1" max="10" value="1" />
+            </div>
+          </div>
+
+          <div class="pill-row" id="pTags" aria-label="Artwork tags"></div>
+
+          <section class="product-specs" aria-label="Artwork notes">
+            <h3>Artwork Notes</h3>
+            <ul class="product-specs__list" id="pSpecsList"></ul>
+          </section>
+
+          <section class="artwork-meta" aria-label="Certificate and studio metadata">
+            <h3>Certificate &amp; Studio Metadata</h3>
+            <div class="artwork-meta__wrap">
+              <table class="artwork-meta__table" id="pMetaTable"></table>
+            </div>
+          </section>
+
+          <div class="product-actions">
+            <button class="btn btn--primary" type="button" id="pAddToCartBtn">Add to Cart</button>
+            <button class="btn btn--soft" type="button" id="pCheckoutBtn">Acquire Now</button>
+            <a class="btn btn--ghost" id="pOtherProductsBtn" href="/collection.html?handle=all">More Artworks</a>
+          </div>
+          <div class="product-feedback" id="pActionFeedback" aria-live="polite"></div>
+
+          <div class="product-note">
+            Each canvas includes certificate validation and studio registration metadata.
+          </div>
+        </section>
+      </div>
+
+      <section class="site-section" aria-labelledby="recommendedTitle">
+        <div class="section-head">
+          <h2 id="recommendedTitle">Related Signature Pieces</h2>
+          <p>Curated by style affinity and collector profile.</p>
+        </div>
+        <div class="product-grid product-grid--listing" id="recommendedGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>BONY Atelier artwork page</div>
+      <div><a href="/collection.html?handle=all">All Works</a></div>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/product.js"></script>
+</body>
+</html>

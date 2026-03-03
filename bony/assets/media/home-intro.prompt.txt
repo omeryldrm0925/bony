@@ -1,0 +1,38 @@
+Create a cinematic, high-fashion hero banner video for an art canvas e-commerce website.
+
+Scene starts in black and white.
+Frame shows a minimalist dark studio wall. Only the wall is visible.
+Several abstract canvas paintings are already hanging on the wall.
+Lighting is soft, studio-style, with dramatic shadows.
+
+After 3 seconds, a blonde woman wearing a red elegant dress and high heels enters the frame from the right side.
+She is holding a colorful abstract canvas painting.
+The aesthetic is minimal, modern, luxury art gallery vibe.
+
+She walks calmly toward the wall.
+She hangs the painting.
+
+The exact moment the painting touches the wall,
+the entire frame transitions from black and white to full vivid color.
+
+The color transition should feel like an explosion of life:
+smooth cinematic bloom effect,
+rich contrast,
+vibrant tones,
+slight slow motion at the transition moment.
+
+The abstract painting she hangs should have bold color splashes, energetic strokes, modern expressionist style.
+
+Mood: sophisticated, artistic, premium, gallery-level.
+Camera: static wide shot, no handheld.
+Aspect ratio: 16:9
+Duration: 8-12 seconds.
+No text overlay.
+No logos.
+No background music.
+
+Emotional effect:
+from lifeless minimalism to bold artistic awakening.
+
+Output target:
+/assets/media/home-intro.mp4
